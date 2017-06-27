@@ -15,7 +15,7 @@ The Application Kernel
 
 In Symfony applications, you usually register your own bundles as well as all the third-party
 bundles from the ``vendor`` directory in the famous ``AppKernel`` class. This is not needed when
-using OroPlatform. It ships with it own kernel that discovers bundles under the ``src`` and
+using OroPlatform. It ships with its own kernel that discovers bundles under the ``src`` and
 the ``vendor`` directories automatically if the contain a ``bundles.yml`` configuration file in
 their ``Resources/config/oro`` directory.
 
